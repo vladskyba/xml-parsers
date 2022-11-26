@@ -1,0 +1,6 @@
+<flig:user id="11" xmlns:flig="http://flights.com">
+  <flig:name>token</flig:name>
+  <flig:surname>token</flig:surname>
+  <flig:middleName>token</flig:middleName>
+  <flig:phone>+380963889274</flig:phone>
+</flig:user>

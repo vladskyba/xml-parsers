@@ -14,4 +14,34 @@
     <xsd:element name="ticket" type="flm:Ticket" />
     <xsd:element name="booking" type="flm:Booking" />
     
+    <xsd:element name="bookings">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="booking" type="flm:Booking" minOccurs="0" maxOccurs="unbounded"/>
+            </xsd:sequence>
+        </xsd:complexType>
+        <!--Unique bookings-->
+        <xsd:unique name="UniqueOrder">
+            <xsd:selector xpath=".//flm:booking"/>
+            <xsd:field xpath="@id"/>
+        </xsd:unique>
+        <!--Unique ticket across books-->
+        <xsd:unique name="UniqueTicket">
+            <xsd:selector xpath=".//flm:ticket"/>
+            <xsd:field xpath="@id"/>
+        </xsd:unique>
+    </xsd:element>
+
+    <xsd:element name="flights">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="flight" type="flm:Flight" minOccurs="0" maxOccurs="unbounded"/>
+            </xsd:sequence>
+        </xsd:complexType>
+        <!--Unique flight-->
+        <xsd:unique name="UniqueFlight">
+            <xsd:selector xpath=".//flm:flight"/>
+            <xsd:field xpath="@id"/>
+        </xsd:unique>
+    </xsd:element>
 </xsd:schema>

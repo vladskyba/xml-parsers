@@ -3,14 +3,20 @@
             targetNamespace="http://flights.com"
             xmlns:flm = "http://flights.com"
             elementFormDefault="qualified">
+
+    <xsd:include schemaLocation="Entity.xsd"/>
     
     <xsd:complexType name="Ticket">
-        <xsd:sequence>
-            <xsd:element name="userId" type="xsd:unsignedLong"/>
-            <xsd:element name="bookingId" type ="xsd:unsignedLong"/>
-            <xsd:element name="line" type="xsd:unsignedByte"/>
-            <xsd:element name="seat" type="xsd:unsignedByte"/>
-        </xsd:sequence>
+        <xsd:complexContent>
+            <xsd:extension base="flm:Entity">
+                <xsd:sequence>
+                    <xsd:element name="userId" type="xsd:unsignedLong"/>
+                    <xsd:element name="bookingId" type ="xsd:unsignedLong"/>
+                    <xsd:element name="line" type="xsd:unsignedByte"/>
+                    <xsd:element name="seat" type="xsd:unsignedByte"/>
+                </xsd:sequence>
+            </xsd:extension>
+        </xsd:complexContent>
     </xsd:complexType>
     
 </xsd:schema>

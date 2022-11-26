@@ -1,0 +1,11 @@
+<flig:booking id="11" xmlns:flig="http://flights.com">
+  <flig:flightId>11</flig:flightId>
+  <flig:bookingStatus>New</flig:bookingStatus>
+  <!--1 or more repetitions:-->
+  <flig:ticket id="11">
+    <flig:userId>11</flig:userId>
+    <flig:bookingId>11</flig:bookingId>
+    <flig:line>6</flig:line>
+    <flig:seat>6</flig:seat>
+  </flig:ticket>
+</flig:booking>

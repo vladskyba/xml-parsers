@@ -1,0 +1,16 @@
+<flig:flights xmlns:flig="http://flights.com">
+  <flig:flight id="11">
+    <flig:start>token</flig:start>
+    <flig:destination>token</flig:destination>
+    <flig:departureTime>2008-09-29T04:49:45</flig:departureTime>
+    <flig:arrivalTime>2014-09-19T02:18:33</flig:arrivalTime>
+    <flig:cost>1.3</flig:cost>
+  </flig:flight>
+  <flig:flight id="2">
+    <flig:start>token</flig:start>
+    <flig:destination>token</flig:destination>
+    <flig:departureTime>2008-09-29T04:49:45</flig:departureTime>
+    <flig:arrivalTime>2014-09-19T02:18:33</flig:arrivalTime>
+    <flig:cost>1.2</flig:cost>
+  </flig:flight>
+</flig:flights>
