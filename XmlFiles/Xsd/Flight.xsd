@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<xsd:schema xmlns:xsd = "http://www.w3.org/2001/XMLSchema"
+            targetNamespace="http://flights.com" 
+            xmlns:flm = "http://flights.com">
+    
+    <xsd:include schemaLocation="Entity.xsd"/>
+    
+    <xsd:simpleType name="UnsignedDouble">
+        <xsd:restriction base="xsd:double">
+            <xsd:maxInclusive value="0"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+    
+    <xsd:complexType name="Flight">
+        <xsd:complexContent>
+            <xsd:extension base="flm:Entity">
+                <xsd:sequence>
+                    <xsd:element name="start" type="xsd:token"/>
+                    <xsd:element name="destination" type="xsd:token"/>
+                    <xsd:element name="cost" type="flm:UnsignedDouble"/>
+                </xsd:sequence>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+    
+</xsd:schema>

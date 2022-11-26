@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<xsd:schema xmlns:xsd = "http://www.w3.org/2001/XMLSchema"
+    targetNamespace="http://flights.com">
+    
+    <xsd:complexType name="Entity">
+        <xsd:attribute name="id" type="xsd:unsignedLong" use="required"/>
+    </xsd:complexType>
+</xsd:schema>

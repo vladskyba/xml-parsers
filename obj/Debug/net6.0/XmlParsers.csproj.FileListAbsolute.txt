@@ -1,0 +1,15 @@
+C:\Users\Rambls\Desktop\Универ\ІТОРОІ\Parsers\XmlParsers\bin\Debug\net6.0\XmlParsers.exe
+C:\Users\Rambls\Desktop\Универ\ІТОРОІ\Parsers\XmlParsers\bin\Debug\net6.0\XmlParsers.deps.json
+C:\Users\Rambls\Desktop\Универ\ІТОРОІ\Parsers\XmlParsers\bin\Debug\net6.0\XmlParsers.runtimeconfig.json
+C:\Users\Rambls\Desktop\Универ\ІТОРОІ\Parsers\XmlParsers\bin\Debug\net6.0\XmlParsers.dll
+C:\Users\Rambls\Desktop\Универ\ІТОРОІ\Parsers\XmlParsers\bin\Debug\net6.0\XmlParsers.pdb
+C:\Users\Rambls\Desktop\Универ\ІТОРОІ\Parsers\XmlParsers\obj\Debug\net6.0\XmlParsers.csproj.AssemblyReference.cache
+C:\Users\Rambls\Desktop\Универ\ІТОРОІ\Parsers\XmlParsers\obj\Debug\net6.0\XmlParsers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rambls\Desktop\Универ\ІТОРОІ\Parsers\XmlParsers\obj\Debug\net6.0\XmlParsers.AssemblyInfoInputs.cache
+C:\Users\Rambls\Desktop\Универ\ІТОРОІ\Parsers\XmlParsers\obj\Debug\net6.0\XmlParsers.AssemblyInfo.cs
+C:\Users\Rambls\Desktop\Универ\ІТОРОІ\Parsers\XmlParsers\obj\Debug\net6.0\XmlParsers.csproj.CoreCompileInputs.cache
+C:\Users\Rambls\Desktop\Универ\ІТОРОІ\Parsers\XmlParsers\obj\Debug\net6.0\XmlParsers.dll
+C:\Users\Rambls\Desktop\Универ\ІТОРОІ\Parsers\XmlParsers\obj\Debug\net6.0\refint\XmlParsers.dll
+C:\Users\Rambls\Desktop\Универ\ІТОРОІ\Parsers\XmlParsers\obj\Debug\net6.0\XmlParsers.pdb
+C:\Users\Rambls\Desktop\Универ\ІТОРОІ\Parsers\XmlParsers\obj\Debug\net6.0\XmlParsers.genruntimeconfig.cache
+C:\Users\Rambls\Desktop\Универ\ІТОРОІ\Parsers\XmlParsers\obj\Debug\net6.0\ref\XmlParsers.dll

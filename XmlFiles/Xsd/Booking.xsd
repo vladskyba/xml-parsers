@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<xsd:schema xmlns:xsd = "http://www.w3.org/2001/XMLSchema"
+            targetNamespace="http://flights.com"
+            xmlns:flm = "http://flights.com"
+            elementFormDefault="qualified">
+
+    <xsd:include schemaLocation="Entity.xsd"/>
+    <xsd:include schemaLocation="Ticket.xsd"/>
+    
+    <xsd:simpleType name="BookingStatus">
+        <xsd:restriction base="xsd:token">
+            <xsd:enumeration value="New"/>
+            <xsd:enumeration value="Active"/>
+            <xsd:enumeration value="Finished"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+    
+    <xsd:complexType name="Booking">
+        <xsd:complexContent>
+            <xsd:extension base="flm:Entity">
+                <xsd:sequence>
+                    <xsd:element name="flightId" type="xsd:unsignedLong"/>
+                    <xsd:element name="bookingStatus" type="flm:BookingStatus"/>
+                    <xsd:element name="ticket" type="flm:Ticket" minOccurs="1" maxOccurs="unbounded"/>
+                </xsd:sequence>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+    
+</xsd:schema>

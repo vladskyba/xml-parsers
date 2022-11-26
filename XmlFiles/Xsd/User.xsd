@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<xsd:schema xmlns:xsd = "http://www.w3.org/2001/XMLSchema"
+            targetNamespace="http://flights.com"
+            xmlns:flm = "http://flights.com"
+            elementFormDefault="qualified">
+
+    <xsd:include schemaLocation="Entity.xsd"/>
+
+    <xsd:simpleType name="Phone">
+        <xsd:restriction base="xsd:token">
+            <xsd:pattern value="(\+\d{12,12})"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+    
+    <xsd:complexType name="User">
+        <xsd:complexContent>
+            <xsd:extension base="flm:Entity">
+                <xsd:all>
+                    <xsd:element name="name" type="xsd:token"/>
+                    <xsd:element name="surname" type="xsd:token"/>
+                    <xsd:element name="middleName" type="xsd:token" minOccurs="0" maxOccurs="1"/>
+                    <xsd:element name="phone" type="flm:Phone"/>
+                </xsd:all>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+    
+</xsd:schema>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<xsd:schema xmlns:xsd = "http://www.w3.org/2001/XMLSchema"
+            targetNamespace="http://flights.com"
+            xmlns:flm = "http://flights.com"
+            elementFormDefault="qualified">
+    
+    <xsd:complexType name="Ticket">
+        <xsd:sequence>
+            <xsd:element name="userId" type="xsd:unsignedLong"/>
+            <xsd:element name="bookingId" type ="xsd:unsignedLong"/>
+            <xsd:element name="line" type="xsd:unsignedByte"/>
+            <xsd:element name="seat" type="xsd:unsignedByte"/>
+        </xsd:sequence>
+    </xsd:complexType>
+    
+</xsd:schema>
