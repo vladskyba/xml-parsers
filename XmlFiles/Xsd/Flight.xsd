@@ -25,5 +25,7 @@
             </xsd:extension>
         </xsd:complexContent>
     </xsd:complexType>
+
+    <xsd:element name="flight" type="flm:Flight" />
     
 </xsd:schema>

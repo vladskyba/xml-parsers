@@ -1,5 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using XmlParsers;
 
-using static System.Console;
-
-WriteLine("Hello, World!");
+XmlValidator.ValidateXmlDocument(new Url(XmlHelper.BaseUrl, @"Xml/Bookings.xml"));
+XmlValidator.ValidateXmlDocument(new Url(XmlHelper.BaseUrl, @"Xml/InvalidFlights.xml"));

@@ -24,5 +24,7 @@
             </xsd:extension>
         </xsd:complexContent>
     </xsd:complexType>
+
+    <xsd:element name="user" type="flm:User" />
     
 </xsd:schema>

@@ -1,6 +1,5 @@
 <flig:ticket id="11" xmlns:flig="http://flights.com">
   <flig:userId>11</flig:userId>
   <flig:bookingId>11</flig:bookingId>
-  <flig:line>6</flig:line>
   <flig:seat>6</flig:seat>
 </flig:ticket>

@@ -8,11 +8,6 @@
     <xsd:include schemaLocation="Flight.xsd" />
     <xsd:include schemaLocation="Ticket.xsd" />
     <xsd:include schemaLocation="Booking.xsd" />
-
-    <xsd:element name="user" type="flm:User" />
-    <xsd:element name="flight" type="flm:Flight" />
-    <xsd:element name="ticket" type="flm:Ticket" />
-    <xsd:element name="booking" type="flm:Booking" />
     
     <xsd:element name="bookings">
         <xsd:complexType>

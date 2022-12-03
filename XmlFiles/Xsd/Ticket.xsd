@@ -4,7 +4,7 @@
             xmlns:flm = "http://flights.com"
             elementFormDefault="qualified">
 
-    <xsd:include schemaLocation="Entity.xsd"/>
+    <xsd:include schemaLocation="./Entity.xsd"/>
     
     <xsd:complexType name="Ticket">
         <xsd:complexContent>
@@ -18,5 +18,7 @@
             </xsd:extension>
         </xsd:complexContent>
     </xsd:complexType>
+    
+    <xsd:element name="ticket" type="flm:Ticket"/>
     
 </xsd:schema>
