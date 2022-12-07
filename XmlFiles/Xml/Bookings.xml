@@ -1,34 +1,34 @@
 <flig:bookings xmlns:flig="http://flights.com">
-  <flig:booking id="1">
-    <flig:flightId>1</flig:flightId>
+  <flig:booking id="11">
+    <flig:flightId>11</flig:flightId>
     <flig:bookingStatus>New</flig:bookingStatus>
-    <flig:ticket id="1">
+    <flig:ticket id="29">
+      <flig:userId>29</flig:userId>
+      <flig:bookingId>29</flig:bookingId>
+      <flig:line>6</flig:line>
+      <flig:seat>6</flig:seat>
+    </flig:ticket>
+    <flig:ticket id="30">
       <flig:userId>1</flig:userId>
       <flig:bookingId>1</flig:bookingId>
       <flig:line>1</flig:line>
       <flig:seat>1</flig:seat>
-    </flig:ticket>
-    <flig:ticket id="2">
-      <flig:userId>1</flig:userId>
-      <flig:bookingId>1</flig:bookingId>
-      <flig:line>1</flig:line>
-      <flig:seat>2</flig:seat>
     </flig:ticket>
   </flig:booking>
-  <flig:booking id="2">
-    <flig:flightId>1</flig:flightId>
+  <flig:booking id="12">
+    <flig:flightId>11</flig:flightId>
     <flig:bookingStatus>New</flig:bookingStatus>
-    <flig:ticket id="3">
-      <flig:userId>2</flig:userId>
-      <flig:bookingId>2</flig:bookingId>
-      <flig:line>2</flig:line>
-      <flig:seat>1</flig:seat>
-    </flig:ticket>
-    <flig:ticket id="4">
-      <flig:userId>2</flig:userId>
-      <flig:bookingId>2</flig:bookingId>
-      <flig:line>2</flig:line>
+    <flig:ticket id="30">
+      <flig:userId>30</flig:userId>
+      <flig:bookingId>29</flig:bookingId>
+      <flig:line>8</flig:line>
       <flig:seat>2</flig:seat>
+    </flig:ticket>
+    <flig:ticket id="31">
+      <flig:userId>31</flig:userId>
+      <flig:bookingId>1</flig:bookingId>
+      <flig:line>8</flig:line>
+      <flig:seat>3</flig:seat>
     </flig:ticket>
   </flig:booking>
 </flig:bookings>
